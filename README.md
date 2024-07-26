@@ -43,7 +43,7 @@ Utilisation
 
     bash
 
-    mvn exec:java -Dexec.mainClass="org.test.Main"
+    mvn exec:java -Dexec.mainClass="org.com.aventurier.Main"
 
     Le programme affichera la position finale du personnage après avoir appliqué tous les mouvements.
 

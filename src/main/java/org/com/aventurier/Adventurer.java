@@ -1,6 +1,7 @@
 package org.com.aventurier;
 
 public class Adventurer {
+
     private final Position position;
     private final Mapping mapping;
 

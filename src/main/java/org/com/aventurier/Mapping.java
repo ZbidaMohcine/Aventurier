@@ -39,13 +39,4 @@ public class Mapping {
         return map[y][x] == ' '; // Accessible si la case est un espace vide
     }
 
-    // Méthode pour afficher la carte (pour le débogage)
-    public void printMap() {
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < columns; j++) {
-                System.out.print(map[i][j]);
-            }
-            System.out.println();
-        }
-    }
 }
